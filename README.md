@@ -104,14 +104,22 @@ Key observations from the benchmarking study:
 
 ## Conversational RAG Extension
 
-The platform was extended with conversational memory to support multi-turn interactions.
+The baseline RAG workflow was extended with conversational memory to support multi-turn interactions and follow-up questions.
 
-### Added Components
+<p align="center">
+  <img width="146" height="316" alt="image" src="https://github.com/user-attachments/assets/a2552e58-4df8-41cf-acef-381986cc8dac" />
+</p>
 
-- Conversation history management
-- Follow-up question handling
-- Query rewriting
-- Context-aware retrieval
+<p align="center">
+<i>Conversational RAG Extension</i>
+</p>
+
+### Key Enhancements
+
+- Conversation history maintained across interactions
+- Follow-up questions rewritten into standalone queries
+- Rewritten query used for document retrieval
+- Retrieved context combined with conversation history for response generation
 
 Example:
 
